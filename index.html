@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
     <title>EM&Q</title>
 
@@ -13,17 +16,19 @@
     <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="container">
+    <div class="header" >
+      <div class="container-fluid">
         <div class="row">
-          <div class="four columns" id="logo">
-            <img src="/assets/logo.png" alt="EM&Q Logo" />
+          <div class="four columns" >
+            <center>
+              <img src="/assets/logo.png" alt="EM&Q Logo" id="logo" />
+            </center>
           </div>
           <div class="eight columns" id="navbar">
             <ul>
-              <li><a href="index.html">THE ISSUE & THE SOLUTION</a></li>
-              <li><a href="about.html">THE APPLICATION</a></li>
-              <li><a href="contact.html">THE FEATURES</a></li>
+              <li><a href="#problems">THE ISSUE & THE SOLUTION</a></li>
+              <li><a href="#application">THE APPLICATION</a></li>
+              <li><a href="#features">THE FEATURES</a></li>
               <li><a href="./doc.html">DOCUMENTATION</a></li>
             </ul>
           </div>
@@ -32,25 +37,38 @@
     </div>
 
     <div id="body">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row" id="banner">
           <div class="six columns">
-            <h2>Header 2</h2>
-            <p>A new application dedicated to teachers and academic representatives, to educate themselves, their peers and students, about gender equality. 
-              In a fun, educative way.</p>
+            <h2>The new EM&Q </br> mobile/ tablet application</h2>
+            <p>
+              A new application dedicated to teachers and academic representatives, to educate themselves, their peers and students, about gender equality. 
+              In a fun, educative way.
+            </p>
+            <button class="button">DOWLOAD NOW</button>
           </div>
           <div class="six columns">
             <img src="/assets/banner.png" alt="EM&Q banner">
           </div>
         </div>
+        
         <div class="row" id="problems">
-          <div class="six columns" id="issue">
-            <h2>The Issue</h2>
-            <p>The issue of</p>
+          <div class="six columns card" id="issue">
+            <div class="card-left">
+              <h2>The Issue</h2>
+              <p>Educators may not provide equal opportunities for boys and girls. This reinforces the existing gender bias that most often disadvantages girls. Training standards and the quality of ECCE training in some countries do not adequately prepare ECCE educators to be gender sensitive. Administrators and supervisors do not see the importance of gender-sensitive education or have the knowledge and competency in promoting gender equality to support educators.</p>
+            </div>
           </div>
-          <div class="six columns" id="solution">
-            <h2>The Solution</h2>
-            <p>The solution to</p>
+          <div class="six columns card" id="solution">
+            <div class="card-right">
+              <h2>The Solution</h2>
+              <p>
+                <q>How can a digital tool inspire and influence academic representative to implement gender equality in their schooling?</q><br><br>
+                Our application will allow professors and academic individuals to retrieve course materials or documentation when preparing for the course content about subjects related to gender equality. It also can be used as check list kind of board with different activities to be applied in school during a given lesson related to gender equality.<br><br>
+                The app will provide different educational materials to gain awareness of gender equality issues present in the society and how to fight against it through pedagogical methods and practices. <br><br>
+                This app will help educate a young generation to have a better understanding of the concept of gender equality and erase the gender biases found in society nowadays.
+            </p>
+            </div>
           </div>
         </div>
         <div class="row" id="application">
@@ -85,7 +103,6 @@
           </div>
         </div>
         <div class="row" id="members">
-          <div class="one columns" id="blank"></div>
           <div class="two columns" id="member 1">
             <img src="/assets/member1.png" alt="Member 1">
             <h5>Member 1</h5>
@@ -106,26 +123,29 @@
             <img src="/assets/member5.png" alt="Member 5">
             <h5>Member 5</h5>
           </div>
-          <div class="one columns" id="blank"></div>
         </div>
       </div>
     </div>
 
     <div class="footer">
-      <div class='container'>
+      <div class='container-fluid'>
         <div class="row">
-          <div class="twelve columns" id="logo">
-            <center><img src="/assets/logo.png" alt="EM&Q Logo" /></center>
+          <div class="twelve columns">
+            <center>
+              <img src="/assets/logo.png" alt="EM&Q Logo" id="logo"/>
+            </center>
           </div>
         </div>
         <div class="row">
           <div class="twelve columns" id="navbar">
-            <ul>
-              <li><a href="index.html">THE ISSUE & THE SOLUTION</a></li>
-              <li><a href="about.html">THE APPLICATION</a></li>
-              <li><a href="contact.html">THE FEATURES</a></li>
-              <li><a href="./doc.html">DOCUMENTATION</a></li>
-            </ul>
+            <center>
+              <ul>
+                <li><a href="#problems">THE ISSUE & THE SOLUTION</a></li>
+                <li><a href="#application">THE APPLICATION</a></li>
+                <li><a href="#features">THE FEATURES</a></li>
+                <li><a href="./doc.html">DOCUMENTATION</a></li>
+              </ul>
+          </center>
           </div>
         </div>
         <div class="row">

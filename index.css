@@ -1,1 +1,130 @@
 /* This is the css file which affects specificly only a index.html*/
+.header {
+  background-color: #5B54DD;
+  padding-top: 10px;
+  min-height: 75px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+#navbar ul li a {
+    color: #fff;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+#banner {
+    margin-top: 45px;
+}
+
+#banner h2 {
+    color: #4C9999;
+    font-family: "Inter";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 160px;
+    margin-left: 175px;
+}
+
+#banner p {
+    margin-left: 175px;
+}
+
+#banner button {
+    border-radius: 20px;
+    background-color: #C8C6ED;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #5B54DD;
+    margin-left: 175px;
+}
+
+#problems {
+    background-color: #C8C6ED;
+}
+
+#problems .card {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#problems .card h2{
+    color: #4C9999;
+    font-family: "Inter";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    padding-top: 168px;
+}
+
+#problems .card q{
+    color: #000000;
+    font-family: "Inter";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+#problems .card .card-left{
+    background-color: #FFFFFF;
+    margin-top: 87px;
+    margin-bottom: 87px;
+    margin-left: 70px;
+    border-radius: 32px 0px 0px 32px;
+}
+
+#problems .card .card-left p{
+    color: #000000;
+    font-family: "Inter";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    margin-left: 100px;
+    margin-right: 60px;
+}
+
+#problems .card .card-right{
+    background-color: #FFFFFF;
+    margin-top: 87px;
+    margin-bottom: 87px;
+    border-radius: 0px 32px 32px 0px;
+}
+
+#problems .card .card-right p{
+    color: #000000;
+    font-family: "Inter";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    margin-left: 60px;
+    margin-right: 100px;
+}
