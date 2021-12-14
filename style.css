@@ -11,15 +11,21 @@ html {
   }
   
   /* adjust typography defaults */
-  body {
+body {
     margin: 1rem;
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
     line-height: 1.5;
   }
   
   /* images and videos max out at full width */
-  img,
-  video {
+img,
+video {
     height: auto;
     max-width: 100%;
   }
+
+#logo{
+  width: 220px;
+  height: 60px;
+  object-fit: cover;
+}
