@@ -1,1 +1,281 @@
 /* This is the css file which affects specificly only a doc.html*/
+.header {
+    background-color: #5B54DD;
+    padding-top: 10px;
+    min-height: 75px;
+}
+
+.header img{
+    margin-right: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.header button {
+    background: #1D9C7F;
+    border-radius: 30px;
+    border: none;
+    color: #ffff;
+    font-size: 18px;
+}
+
+#home-button a {
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+iframe{
+    width: 100%;
+}
+
+#idea iframe {
+    height: 800px;
+    border: 3px solid #5B54DD;
+    border-radius: 20px;
+}
+
+#wireframe{
+    background-color: #C8C6ED;
+}
+
+#wireframe iframe {
+    width: 800px;
+    height: 800px;
+    border: 3px solid #5B54DD;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#wf-card {
+    background-color: #ffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 35px;
+}
+
+#wf-card h2 {
+    margin-top: 1em;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 60px;
+    color: #4C9999;
+    background: #E5E5E5;
+    border-radius: 20px;
+    width: 650px;
+}
+
+#wf-card p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+#mockup h2{
+    margin-top: 1em;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    color: #4C9999;
+    width: 650px;
+    background: #E5E5E5;
+    border-radius: 20px;
+}
+
+#mockup p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#mockup iframe {
+    height: 700px;
+    border: 5px solid #5B54DD;
+    border-radius: 20px;
+}
+
+#idea-title {
+    padding-top: 1em;
+}
+#idea-title h2 {
+    border: 5px solid #9791EF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 650px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    color: #4C9999;
+}
+
+#idea h3 {
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    color: #4C9999;
+    background: #E5E5E5;
+    border-radius: 20px;
+}
+
+#idea p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 50px;
+}
+
+#diagram {
+    margin-top: 3em;
+}
+
+#di-card {
+    border: 9px solid #9791ef;
+    box-sizing: border-box;
+    border-radius: 15px;
+    min-height: 330px;
+    margin-bottom: 2em
+}
+
+#di-card h2 {
+    margin-top: 1em;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    color: #4C9999;
+    background: #E5E5E5;
+    border-radius: 20px;
+}
+
+#di-card p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#tenet {
+    background: #DFF3EC;
+    border-radius: 30px;
+    padding-top: 1em;
+}
+
+#tenet h2 {
+    width: 650px;
+    background: #E5E5E5;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+}
+
+#tenet p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#tenet-card {
+    border: 3px solid rgba(91, 84, 221, 0.75);
+    box-sizing: border-box;
+    border-radius: 54px;
+    min-height: 550px;
+    margin-bottom: 1em;
+}
+
+#tenet-card h5 {
+    margin-top: 1em;
+    margin-left: 35px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    color: #5B54DD;
+}
+
+#tenet-card p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#non-func h2 {
+    margin-top: 1em;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    color: #4C9999;
+    background: #E5E5E5;
+    border-radius: 20px;
+    width: 650px;
+}
+
+#non-func span p {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+#non-func span ul {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
