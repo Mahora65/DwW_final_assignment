@@ -1,1 +1,246 @@
 /* This is the css file which affects specificly only a index.html*/
+.header {
+  background-color: #5B54DD;
+  padding-top: 10px;
+  min-height: 75px;
+}
+
+#banner {
+    margin-top: 45px;
+}
+
+#banner h2 {
+    color: #4C9999;
+    font-family: "Inter";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 160px;
+    margin-left: 175px;
+}
+
+#banner p {
+    margin-left: 175px;
+}
+
+#banner button {
+    border-radius: 20px;
+    background-color: #C8C6ED;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #5B54DD;
+    margin-left: 175px;
+}
+
+#problems {
+    background-color: #C8C6ED;
+}
+
+#problems .card {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#problems .card h2{
+    color: #4C9999;
+    font-family: "Inter";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+#problems .card q{
+    color: #000000;
+    font-family: "Inter";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+#problems .card .card-left{
+    background-color: #FFFFFF;
+    margin-top: 87px;
+    margin-bottom: 87px;
+    margin-left: 70px;
+    border-radius: 32px 0px 0px 32px;
+    min-height: 650px;
+}
+
+#problems .card .card-left p{
+    color: #000000;
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    margin-left: 100px;
+    margin-right: 60px;
+}
+
+#problems .card .card-right{
+    background-color: #FFFFFF;
+    margin-top: 87px;
+    margin-bottom: 87px;
+    border-radius: 0px 32px 32px 0px;
+    min-height: 650px;
+}
+
+#problems .card .card-right p{
+    color: #000000;
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+
+#application {
+    padding-bottom: 1em;
+}
+#app-title {
+    padding-top: 1em;
+}
+
+#app-title h2{
+    color: #4C9999;
+    font-family: "Inter";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+
+
+.app-text p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#features-title {
+    background-color: rgba(196, 196, 196, 0.2);
+    padding-top: 1em;
+}
+
+#features-title h2{
+    color: #4C9999;
+    font-family: "Inter";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+#features {
+    background-color: rgba(196, 196, 196, 0.2);
+    padding-bottom: 2em;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+#feature-card {
+    background: #FFFFFF;
+    border: 3px solid rgba(91, 84, 221, 0.75);
+    box-sizing: border-box;
+    border-radius: 45px;
+    min-height: 300px;
+    min-width: 200px;
+    margin-left: 18px;
+    margin-bottom: 1em;
+}
+
+#features #feature-card h5{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #4C9999;
+}
+
+#features #feature-card p{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 0.02em;
+}
+
+#team-title {
+    padding-top: 1em;
+}
+
+#team-title h2{
+    color: #4C9999;
+    font-family: "Inter";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+#team-title p{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#team #member-blank{
+    min-width: 88px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#team #member-card {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#team #member-card h5{
+    color: #4C9999;
+    font-family: "Inter";
+    font-weight: 450;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+}
+
+#team #member-card img {
+    height: 230px;
+}
