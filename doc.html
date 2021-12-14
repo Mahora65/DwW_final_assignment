@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-
+    
     <title>EM&Q</title>
 
     <!-- import the webpage's stylesheet -->
@@ -45,7 +46,9 @@
       <div class="container-fluid">
 
         <div class="row" id="idea-title">
-          <h2>From an Idea to a project</h2>
+          <center>
+            <h2>From an Idea to a project</h2>
+          </center>
         </div>
         <div class="row" id="idea">
           <div class="four columns">
@@ -65,7 +68,9 @@
         <div class="row" id="wireframe">
           <div class="eleven columns" id='wf-card'>
             <div class="row">
-              <h2>Wireframe: Black & White sketch</h2>
+              <center>
+                <h2>Wireframe: Black & White sketch</h2>
+              </center> 
             </div>
             <div class="row">
               <div class="four columns">
@@ -81,7 +86,9 @@
         
         <div class="row" id="mockup">
           <div class="row">
-            <h2>Mockup & user tests</h2>
+            <center>
+              <h2>Mockup & user tests</h2>
+            </center>
           </div>
           <div class="row">
             <div class="four columns box">
@@ -101,49 +108,57 @@
         </div>
         
         <div class="row" id="diagram">
-          <div class="six columns">
-            <div class="di-card">
+          <div class="one columns"><br></div>
+          <div class="five columns" id="di-card">
+            <center>
               <h2>Data Flow Diagram</h2>
-              <p> A data flow diagram will show the way information flows through the process within the application. It includes data inputs and outputs, data stores, and the various subprocesses the data moves through.</p>
+            </center>
+            <p> A data flow diagram will show the way information flows through the process within the application. It includes data inputs and outputs, data stores, and the various subprocesses the data moves through.</p>
+            <center>
               <a href="./assets/data_flow_diagram.jpeg">DOWNLOAD DOCUMENT</a>
-            </div>
+            </center>
           </div>  
-          <div class="six columns">
-            <div class="di-card">
+          <div class="five columns" id="di-card">
+            <center>
               <h2>User Flow</h2>
-              <p>User flow is the path taken by a prototypical user on the app to complete a task. The user flow takes them from their entry point through a set of steps towards a successful outcome and final action, which is to access/download pedagogical content/material.</p>
+            </center>
+            <p>User flow is the path taken by a prototypical user on the app to complete a task. The user flow takes them from their entry point through a set of steps towards a successful outcome and final action, which is to access/download pedagogical content/material.</p>
+            <center>
               <a href="./assets/user_flow_diagram.jpeg">DOWLOAD DOCUMENT</a>
-            </div>
+            </center>
           </div>  
+          <div class="one columns"><br></div>
         </div>
         
         <div id="tenet">
           <div class="row">
-            <h2>Requirement specifications</h2>
+            <center>
+              <h2>Requirement specifications</h2>
+            </center>
             <p>
               Following reviews of the data that would be entered into the database, and the requirements of retrieving the data several criteria were identified that need to be met by the database software. The minimum requirements for the software were:
             </p>
           </div>
           <div class="row">
-            <div class="three columns">
+            <div class="three columns" id="tenet-card">
               <h5>1.</h5>
               <p>
                 Must support the relational database model, and some version of the SQL language. This is an industry standard, and as a program that will be spanning several countries and many years adhering to this standard will ensure the longevity and portability of the database. In addition most database administrators are familiar with some form of SQL and relational databases, so training of an administrator will be relatively easy.
               </p>
             </div>
-            <div class="three columns">
+            <div class="three columns" id="tenet-card">
               <h5>2.</h5>
               <p>
                 Need to allow multiple users to access tables simultaneously. Since the data is going to be entered by users from different countries and numerous educational institutions, it is likely that multiple people will be entering data into the same table at the same time.
               </p>
             </div>
-            <div class="three columns">
+            <div class="three columns" id="tenet-card">
               <h5>3.</h5>
               <p>
                 Allow running of stored SQL scripts. There are many processes that can be automated with stored scripts, to facility management, updates, editing, and querying of the database. This is especially important if users are accessing the data from the internet. Being able to call and run a stored script is far easier and more efficient than trying to code all the information into a web form.
               </p>
             </div>
-            <div class="three columns">
+            <div class="three columns" id="tenet-card">
               <h5>4.</h5>
               <p>
                 Allow restrictions on the data values entered in columns within a table. Being able to restrict the data to certain ranges or values will reduce the possible errors in data entry.
@@ -151,26 +166,26 @@
             </div>
           </div>
           <div class="row">
-            <div class="three columns">
+            <div class="three columns" id="tenet-card">
               <h5>5.</h5>
               <p>
                 Allow creation of multiple indexes on a table, as well as unique indexes within a table. Also must be able to create one index on multiple columns. Multiple indexes on a table allow faster sorts and queries based on various parameters.
               </p>
               <p>Creating a unique index across multiple columns will prevent entering duplicate data.</p>
             </div>
-            <div class="three columns">
+            <div class="three columns" id="tenet-card">
               <h5>6.</h5>
               <p>
                 Allow creation of views on the data. This allows a minimum amount of data to be stored and a virtually unlimited number of outputs to be created.
               </p>
             </div>
-            <div class="three columns">
+            <div class="three columns" id="tenet-card">
               <h5>7.</h5>
               <p>
                 Allow inner joins, left outer joins, right outer joins, full outer joins, and multiple joins within a query. The joins are different ways of selecting items from one or more tables, in either a query or a view.
               </p>
             </div>
-            <div class="three columns">
+            <div class="three columns" id="tenet-card">
               <h5>8.</h5>
               <p>
                 Allow triggers on the data tables. Triggers will allow predetermined actions to be taken when information is entered, edited, or deleted from a data table. Column data checks are an intrinsic form of triggers.
@@ -178,16 +193,16 @@
             </div>
           </div>
           <div class="row">
-            <div class="three columns">
+            <div class="three columns" >
               <br>
             </div>
-            <div class="three columns">
+            <div class="three columns" id="tenet-card">
               <h5>9.</h5>
               <p>
                 Allow data entry from the internet. Most of the data will be entered into the forms from the internet.
               </p>
             </div>
-            <div class="three columns">
+            <div class="three columns" id="tenet-card">
               <h5>10.</h5>
               <p>
                 Had to run on a Linux System. The project is running a Linux server, therefore the database program must run on Linux. 
@@ -210,7 +225,7 @@
           <center>
             <h2>Non-Functional specifications</h2>
           </center>
-          <span>
+          <span id="func-text">
             <p>A set of attributes that dictates how a system operates. It makes the application run more efficiently and illustrates the system's quality.</p>
             <p><b>Speed</b>: the application must be fast when responding to commands</p>
             <p><b>Security</b>: Protection of sensitive user data</p>
