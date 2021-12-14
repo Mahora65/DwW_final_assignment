@@ -29,3 +29,45 @@ video {
   height: 60px;
   object-fit: cover;
 }
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+}
+
+#navbar ul li {
+  display: inline-block;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+
+}
+
+#navbar ul li a {
+  color: #fff;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.footer {
+  background-color: #5B54DD;
+}
+
+.footer img{
+  margin-top: 0.5em;
+}
+
+.footer #address {
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 2em;
+}

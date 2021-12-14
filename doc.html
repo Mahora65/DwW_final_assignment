@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
     <title>EM&Q</title>
 
@@ -12,18 +16,251 @@
     <link rel="stylesheet" href="/doc.css" />
   </head>
   <body>
-    <!-- this is the start of content -->
-    <h1>
-      Hello World! This EM&Q Document page
-    </h1>
-    <p>
-      This starter gives you everything you need to start working on a new
-      website, and nothing more. If you're looking for something a little more
-      opinionated, try remixing
-      <a href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-        >~glitch-hello-website</a
-      >.
-    </p>
+    <div class="header">
+      <div class='container-fluid'>
+        <div class="row">
+          <div class="three columns">
+            <center>
+              <button class="button">DOCUMENTATION</button>
+            </center>
+          </div>
+          <div class="six columns">
+            <center>
+              <img src="/assets/logo.png" alt="EM&Q Logo" id="logo" />
+            </center>
+          </div>
+          <div class="one columns">
+            <br>
+          </div>
+          <div class="two columns box" id="home-button">
+              <img src="/assets/home.png" alt="Home"/>
+              <a href="./index.html">HOMEPAGE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- six row -->
+    <div class="body">
+      <div class="container-fluid">
+
+        <div class="row" id="idea-title">
+          <h2>From an Idea to a project</h2>
+        </div>
+        <div class="row" id="idea">
+          <div class="four columns">
+            <h3>Project draft</h3>
+            <p>
+              One of the initial phases in the development of our project was to conduct a brainstorming session and present the results in the form of a glitch project.
+            </p>
+            <p>
+              This will offer you a better idea of the spirit we want to instill in our application, as well as its identity, motives, and primary objectives.
+            </p>
+          </div>
+          <div class="eight columns">
+            <iframe src="https://dww-part3-p1-projects.glitch.me" title="part3_phase1"></iframe>
+          </div>
+        </div>
+        
+        <div class="row" id="wireframe">
+          <div class="eleven columns" id='wf-card'>
+            <div class="row">
+              <h2>Wireframe: Black & White sketch</h2>
+            </div>
+            <div class="row">
+              <div class="four columns">
+                <p>After that, we created a wireframe for our project. This was a first sketch of how our application will appear, while specifying the size and positioning of page components, application features, conversion areas, and navigation for our application. It gave us the opportunity to consider how we could improve the user experience throughout our application.
+                </p>
+              </div>
+              <div class="eight columns">
+                <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FGGsTfJHrZJu2hJnPDH9uXr%2FGroup17_Wireframe-database%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row" id="mockup">
+          <div class="row">
+            <h2>Mockup & user tests</h2>
+          </div>
+          <div class="row">
+            <div class="four columns box">
+              <p>
+                The next stage in the execution of our idea was to build prototypes of the application using the Figma website. These mockups are translations of our thoughts and ideas that will help us to quickly obtain input from end users.
+              </p>
+            </div>
+            <div class="four columns">
+              <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6qoxJNarQEqMbbZldDsNjD%2FGroup-17_mock_up%3Fnode-id%3D2589%253A5987%26scaling%3Dscale-down%26page-id%3D2587%253A5982%26starting-point-node-id%3D2589%253A5987" allowfullscreen></iframe>
+            </div>
+            <div class="four columns">
+              <p>
+                These mockups will help you visualize how our application will appear and how we want it to be developed, created, and designed. More specifically, we began our mockups with merely the core element of our concept. Then we put it to the test with real users. We improved the mockups as a result of the testers' input.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row" id="diagram">
+          <div class="six columns">
+            <div class="di-card">
+              <h2>Data Flow Diagram</h2>
+              <p> A data flow diagram will show the way information flows through the process within the application. It includes data inputs and outputs, data stores, and the various subprocesses the data moves through.</p>
+              <a href="./assets/data_flow_diagram.jpeg">DOWNLOAD DOCUMENT</a>
+            </div>
+          </div>  
+          <div class="six columns">
+            <div class="di-card">
+              <h2>User Flow</h2>
+              <p>User flow is the path taken by a prototypical user on the app to complete a task. The user flow takes them from their entry point through a set of steps towards a successful outcome and final action, which is to access/download pedagogical content/material.</p>
+              <a href="./assets/user_flow_diagram.jpeg">DOWLOAD DOCUMENT</a>
+            </div>
+          </div>  
+        </div>
+        
+        <div id="tenet">
+          <div class="row">
+            <h2>Requirement specifications</h2>
+            <p>
+              Following reviews of the data that would be entered into the database, and the requirements of retrieving the data several criteria were identified that need to be met by the database software. The minimum requirements for the software were:
+            </p>
+          </div>
+          <div class="row">
+            <div class="three columns">
+              <h5>1.</h5>
+              <p>
+                Must support the relational database model, and some version of the SQL language. This is an industry standard, and as a program that will be spanning several countries and many years adhering to this standard will ensure the longevity and portability of the database. In addition most database administrators are familiar with some form of SQL and relational databases, so training of an administrator will be relatively easy.
+              </p>
+            </div>
+            <div class="three columns">
+              <h5>2.</h5>
+              <p>
+                Need to allow multiple users to access tables simultaneously. Since the data is going to be entered by users from different countries and numerous educational institutions, it is likely that multiple people will be entering data into the same table at the same time.
+              </p>
+            </div>
+            <div class="three columns">
+              <h5>3.</h5>
+              <p>
+                Allow running of stored SQL scripts. There are many processes that can be automated with stored scripts, to facility management, updates, editing, and querying of the database. This is especially important if users are accessing the data from the internet. Being able to call and run a stored script is far easier and more efficient than trying to code all the information into a web form.
+              </p>
+            </div>
+            <div class="three columns">
+              <h5>4.</h5>
+              <p>
+                Allow restrictions on the data values entered in columns within a table. Being able to restrict the data to certain ranges or values will reduce the possible errors in data entry.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="three columns">
+              <h5>5.</h5>
+              <p>
+                Allow creation of multiple indexes on a table, as well as unique indexes within a table. Also must be able to create one index on multiple columns. Multiple indexes on a table allow faster sorts and queries based on various parameters.
+              </p>
+              <p>Creating a unique index across multiple columns will prevent entering duplicate data.</p>
+            </div>
+            <div class="three columns">
+              <h5>6.</h5>
+              <p>
+                Allow creation of views on the data. This allows a minimum amount of data to be stored and a virtually unlimited number of outputs to be created.
+              </p>
+            </div>
+            <div class="three columns">
+              <h5>7.</h5>
+              <p>
+                Allow inner joins, left outer joins, right outer joins, full outer joins, and multiple joins within a query. The joins are different ways of selecting items from one or more tables, in either a query or a view.
+              </p>
+            </div>
+            <div class="three columns">
+              <h5>8.</h5>
+              <p>
+                Allow triggers on the data tables. Triggers will allow predetermined actions to be taken when information is entered, edited, or deleted from a data table. Column data checks are an intrinsic form of triggers.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="three columns">
+              <br>
+            </div>
+            <div class="three columns">
+              <h5>9.</h5>
+              <p>
+                Allow data entry from the internet. Most of the data will be entered into the forms from the internet.
+              </p>
+            </div>
+            <div class="three columns">
+              <h5>10.</h5>
+              <p>
+                Had to run on a Linux System. The project is running a Linux server, therefore the database program must run on Linux. 
+              </p>
+            </div>
+            <div class="three columns">
+              <br>
+            </div>
+          </div>
+          <div class="row">
+            <center>
+              <p>
+                Based on these requirements the qualified software was examined was Oracle, Informix, Ingres, and PostgreSQL. All of these products met the requirements outlined above. PostgreSQL offered the best price/performance of the qualified software. Based on research of the computer literature, PostgreSQL appeared to serve data over the web as fast or nearly as fast as any of the other products. Also being an open source program there is no upfront cost to acquiring the software. Based on the cost and performance PostgreSQL was chosen as the software to use for this project.
+              </p>
+            </center>
+          </div>
+        </div>
+
+        <div class="row" id="non-func">
+          <center>
+            <h2>Non-Functional specifications</h2>
+          </center>
+          <span>
+            <p>A set of attributes that dictates how a system operates. It makes the application run more efficiently and illustrates the system's quality.</p>
+            <p><b>Speed</b>: the application must be fast when responding to commands</p>
+            <p><b>Security</b>: Protection of sensitive user data</p>
+            <p><b>Portability</b>: The application should be effective on multiple operating systems</p>
+            <p><b>Compatibility</b>: The application’s system should be highly functional even when other applications are running on the same device.</p>
+            <p><b>Localization</b>: The application should match the geographical location of its users, including aspects such as:</p>
+            <ul>
+              <li>Language</li>
+              <li>Currencies</li>
+              <li>Measurements, such as pounds vs. kilograms</li>
+              <li>Time zones</li>
+            </ul>
+            <p><b>Reliability</b>: The application should have a highly reliable functions even after extensive use.</p>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class='container-fluid'>
+        <div class="row">
+          <div class="twelve columns">
+            <center>
+              <img src="/assets/logo.png" alt="EM&Q Logo" id="logo"/>
+            </center>
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns" id="navbar">
+            <center>
+              <ul>
+                <li><a href="#problems">THE ISSUE & THE SOLUTION</a></li>
+                <li><a href="#app-title">THE APPLICATION</a></li>
+                <li><a href="#features-title">THE FEATURES</a></li>
+                <li><a href="#team-title">THE TEAM</a></li>
+                <li><a href="./doc.html">DOCUMENTATION</a></li>
+              </ul>
+          </center>
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns" id="address">
+            <center>
+              15, Bouleverd Diderot, <br/>
+              75012 PARIS
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
 
